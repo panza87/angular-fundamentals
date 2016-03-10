@@ -1,6 +1,6 @@
 'use strict';
 
-eventsApp.controller('EventController', function EventController($scope) {
+eventsApp.controller('EventController', function($scope) {
 	
 	$scope.snippet = '<span style="color:red">Hi there</span>';
 	$scope.boolValue = true;
