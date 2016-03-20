@@ -12,7 +12,9 @@
     <div class="navbar" ng-controller="MainMenuController">
         <div class="navbar-inner">
             <ul class="nav">
+				<li><a href="#" ng-click="home()">Home</a></li>
                 <li><a href="#" ng-click="createEvent()">Create Event</a></li>
+				<li><a href="#" ng-click="editProfile()">Edit Profile</a></li>
             </ul>
         </div>
     </div>
@@ -31,8 +33,11 @@
 <script src="/js/controllers/EventController.js"></script>
 <script src="/js/controllers/EventListController.js"></script>
 <script src="/js/controllers/MainMenuController.js"></script>
+<script src="js/controllers/EditProfileController.js"></script>
 <script src="/js/filters.js"></script>
 <script src="/js/services/EventData.js"></script>
 <script src="/lib/bootstrap.min.js"></script>
+<script src="js/services/GravatarUrlBuilder.js"></script>
+<script src="lib/angular/angular-sanitize.js"></script>
 </body>
 </html>
